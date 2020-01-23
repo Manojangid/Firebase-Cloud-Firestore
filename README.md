@@ -17,4 +17,25 @@ Firestore in glance
 11. You can query across subcollections with the same collection ID by using Collection Group Queries.
 12. Documents in subcollections can contain subcollections as well, allowing you to further nest data. You can nest data up to 100 levels deep.
 13. When you delete a document that has subcollections, those subcollections are not deleted.
-14. 
+14. Cloud Firestore uses a deterministic ordering based on the internal representations. The following list shows the order:
+
+    Null values
+    Boolean values
+    Integer and floating-point values, sorted in numerical order
+    Date values
+    Text string values
+    Byte values
+    Cloud Firestore references
+    Geographical point values
+    Array values
+    Map values
+15. Data structure in Cloud Firestore
+    > Nested data in documents
+    You can nest complex objects like arrays or maps within documents.
+    > Subcollections
+    You can create collections within documents when you have data that might expand over time.
+    > Root-level collections
+    Create collections at the root level of your database to organize disparate data sets.
+    
+    
+    
