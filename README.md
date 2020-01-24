@@ -18,17 +18,16 @@ Firestore in glance
 12. Documents in subcollections can contain subcollections as well, allowing you to further nest data. You can nest data up to 100 levels deep.
 13. When you delete a document that has subcollections, those subcollections are not deleted.
 14. Cloud Firestore uses a deterministic ordering based on the internal representations. The following list shows the order:
-
-    -Null values
-    -Boolean values
-    -Integer and floating-point values, sorted in numerical order
-    -Date values
-    -Text string values
-    -Byte values
-    -Cloud Firestore references
-    -Geographical point values
-    -Array values
-    -Map values
+    - Null values
+    - Boolean values
+    - Integer and floating-point values, sorted in numerical order
+    - Date values
+    - Text string values
+    - Byte values
+    - Cloud Firestore references
+    - Geographical point values
+    - Array values
+    - Map values
 15. Data structure in Cloud Firestore
     -Nested data in documents
     You can nest complex objects like arrays or maps within documents.
