@@ -1,9 +1,9 @@
 # Firebase-Cloud-Firestore
-##Cloud firestore is a flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.
+## Cloud firestore is a flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.
 
 Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform. Like Firebase Realtime Database, it keeps your data in sync across client apps through realtime listeners and offers offline support for mobile and web so you can build responsive apps that work regardless of network latency or Internet connectivity. Cloud Firestore also offers seamless integration with other Firebase and Google Cloud Platform products, including Cloud Functions.
 
-##Firestore in glance
+## Firestore in glance
 1. Cloud Firestore stores data in Documents, which are stored in Collections. Cloud Firestore creates collections and documents              implicitly the first time you add data to the document. You do not need to explicitly create collections or documents. 
 2. Documents in a collection can contain different sets of information.
 3. Each document contains a set of key-value pairs. Cloud Firestore is optimized for storing large collections of small documents.
@@ -29,11 +29,11 @@ Cloud Firestore is a flexible, scalable database for mobile, web, and server dev
     - Array values
     - Map values
 15. Data structure in Cloud Firestore
-    -Nested data in documents
+    - Nested data in documents <br/>
     You can nest complex objects like arrays or maps within documents.
-    -Subcollections
+    - Subcollections <br/>
     You can create collections within documents when you have data that might expand over time.
-    -Root-level collections
+    - Root-level collections <br/>
     Create collections at the root level of your database to organize disparate data sets.
     
     
